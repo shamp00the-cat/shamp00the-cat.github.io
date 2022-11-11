@@ -1,0 +1,82 @@
+h1 {
+  font-family: Maison, Roboto, Helvetica Neue, Arial, sans-serif;
+  color: #9c7cfc;
+  text-align: right;
+}
+
+h2 {
+  font-family: Maison, Roboto, Helvetica Neue, Arial, sans-serif;
+  color: #000000;
+}
+
+body {
+  margin: 50px 100px 50px 100px;
+  font-family: Maison, Roboto, Helvetica Neue, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: left;
+  position: relative;
+  float: left;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+button {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: #00ff00;
+}
+
+button a:hover {
+  background-color: #9c7cfc;
+  color: white;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  height: 100%;
+  background-color: white;
+  position: relative;
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li {
+  text-align: right;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a.active {
+  background-color: #9c7cfc;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #9c7cfc;
+  color: white;
+}
